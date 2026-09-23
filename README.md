@@ -1,6 +1,6 @@
 # Simagic Profile Manager (SPM)
 
-**Public beta · Windows · SimHub** · [Polski](README.pl.md)
+**Public beta · Windows · SimHub**
 
 Simagic Profile Manager is a community plugin for keeping SIMAGIC wheelbase setups in one place. It was created to make switching between cars and games quicker: import your SimPro 2 setups, organize and tune them in SimHub, then assign a setup to a car or class for automatic loading. Use the SimHub window, a touchscreen/DDU, phone, tablet or mapped steering-wheel buttons.
 
