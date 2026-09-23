@@ -14,7 +14,7 @@ This is the **binary distribution and update repository**. Source code and the b
 - Shows the Profile Manager on a SimHub display, monitor, phone or tablet.
 - Offers a first-start guide, backups, diagnostic beta reports and SHA-256-verified beta updates.
 
-Supported wheelbases in this beta: **SIMAGIC Alpha Mini, Alpha and Alpha Ultimate**. SIMAGIC EVO wheelbases are **not supported**. Game/car/class detection depends on the data provided by SimHub.
+Verified legacy wheelbases: **SIMAGIC Alpha Mini, Alpha and Alpha Ultimate**. **Alpha EVO Sport, EVO and EVO Pro support is experimental and disabled by default.** Game/car/class detection depends on the data provided by SimHub.
 
 > [!WARNING]
 > This is beta software that can change wheelbase settings. Check setup values before applying them and keep a backup of important profiles. **We recommend closing SimPro Manager 2 while using SPM to load or tune setups**, so the two applications do not try to control the wheelbase at the same time. SimPro 2 can still be used to export profiles for import into SPM.
@@ -23,7 +23,7 @@ Supported wheelbases in this beta: **SIMAGIC Alpha Mini, Alpha and Alpha Ultimat
 
 Get the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases). Choose the complete `SimagicProfileManager-Setup-<version>.zip` package for the easiest installation. The same release also provides the individual DLLs and dashboard. For direct downloads from the repository, see [`manual/`](manual/).
 
-Current manual-copy files (`0.1.0-beta.3`):
+Current manual-copy files (`0.1.0-beta.4`):
 
 | File | Destination |
 | --- | --- |
@@ -59,10 +59,18 @@ The guide walks you through choosing touch, buttons or both; mapping controls (o
 
 After setup, use **Profiles** to create/import/edit setups and **Auto Switch** to assign them to a game-specific car or class. Use **Settings → Display** to choose a SimHub screen or get the phone/tablet address and QR code. Phone/tablet and the SimHub PC must be on the same local network; allow incoming SimHub connections through the firewall. You can revisit onboarding from **Settings → First Start Setup** without deleting existing profiles.
 
+## Experimental Alpha EVO support
+
+Version `0.1.0-beta.4` can detect Alpha EVO Sport (`3670:0500`), Alpha EVO (`3670:0501`) and Alpha EVO Pro (`3670:0502`). EVO reads and writes remain **off until you explicitly enable Settings → Beta → Enable experimental SIMAGIC EVO compatibility**. When disabled, SPM may show the detected model but does not apply profiles or tune the EVO.
+
+With the switch on, only the common mapped settings are writable. Smoothness, Feedback Frequency and Torque Limit have unverified EVO offsets and are **not writable**; profile application skips them with a warning. This has not been tested on physical EVO hardware yet. Legacy Alpha support remains the stable path.
+
+EVO testers: capture **Settings → Diagnostics → CAPTURE EVO STATUS (0x81)** before and after changing one setting in SimPro Manager. Include the exact model, PID and both raw reports when using **Report a Bug**. Close SimPro Manager before allowing SPM to write to the wheelbase.
+
 ## Beta updates and feedback
 
-SPM checks the public [`update-manifest-beta.json`](update-manifest-beta.json), downloads a release package and verifies its SHA-256 checksum before installing it. Versions `0.1.0-beta.1` and `0.1.0-beta.2` still point to the former private update location: install `0.1.0-beta.3` manually **once** to switch to this public update channel.
+SPM checks the public [`update-manifest-beta.json`](update-manifest-beta.json), downloads a release package and verifies its SHA-256 checksum before installing it. Versions `0.1.0-beta.1` and `0.1.0-beta.2` still point to the former private update location: install `0.1.0-beta.3` or newer manually **once** to switch to this public update channel.
 
-Please report bugs using **Beta Report** inside the plugin. Include what you were doing, the game/car and what happened. Do not post private logs or personal information in public issues without checking them first. Backup restore is not yet available in the beta UI.
+Please use **Report a Bug** inside the plugin. Include what you were doing, the game/car and what happened. Do not post private logs or personal information in public issues without checking them first. Backup restore is not yet available in the beta UI.
 
 Simagic Profile Manager is an independent community project, not affiliated with, endorsed by or supported by SIMAGIC or SimHub. SIMAGIC and SimHub are trademarks of their respective owners.

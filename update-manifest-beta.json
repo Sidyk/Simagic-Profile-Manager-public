@@ -1,9 +1,9 @@
 {
   "product": "Simagic Profile Manager",
-  "version": "0.1.0-beta.3",
+  "version": "0.1.0-beta.4",
   "channel": "beta",
-  "publishedUtc": "2026-09-23T04:59:44.9771822Z",
-  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.3/SimagicProfileManager-Setup-0.1.0-beta.3.zip",
-  "sha256": "afeac1517304d31209473ff9e9f45448a76bb5b282eedec3be54569a4d48c90e",
-  "changelog": "See the release notes on GitHub for changes in v0.1.0-beta.3."
+  "publishedUtc": "2026-09-23T18:18:52.0367871Z",
+  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.4/SimagicProfileManager-Setup-0.1.0-beta.4.zip",
+  "sha256": "e8c35aa32083d708a6d41aa1eaea29f07b763b8dde6607b835a0d54a6ce8fa46",
+  "changelog": "Opt-in experimental Alpha EVO support (off by default), improved profile reload, SimPro conflict handling and bug reporting."
 }
