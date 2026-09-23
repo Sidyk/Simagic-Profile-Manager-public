@@ -21,20 +21,9 @@ Verified legacy wheelbases: **SIMAGIC Alpha Mini, Alpha and Alpha Ultimate**. **
 
 ## Download
 
-Get the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases). Choose the complete `SimagicProfileManager-Setup-<version>.zip` package for the easiest installation. The same release also provides the individual DLLs and dashboard. For direct downloads from the repository, see [`manual/`](manual/).
+Download the complete [SimagicProfileManager-Setup-0.1.0-beta.4.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.4/SimagicProfileManager-Setup-0.1.0-beta.4.zip). This one ZIP contains the plugin DLLs, dashboard and installer. For future versions, get the ZIP from the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases).
 
-Current manual-copy files (`0.1.0-beta.4`):
-
-| File | Destination |
-| --- | --- |
-| [`User.SimagicProfileV2.dll`](manual/User.SimagicProfileV2.dll) | SimHub installation folder |
-| [`SimagicProfileV2.Core.dll`](manual/SimagicProfileV2.Core.dll) | SimHub installation folder |
-| [`SimagicProfileV2.Devices.dll`](manual/SimagicProfileV2.Devices.dll) | SimHub installation folder |
-| [`Simagic Profile Manager.simhubdash`](manual/Simagic%20Profile%20Manager.simhubdash) | Import through SimHub Dash Studio; **do not** put it beside the DLLs |
-
-The `manual/` files must always be used **together from the same version**. Do not mix DLLs from different releases.
-
-## Install with the release package (recommended)
+## Install
 
 1. Install and open SimHub at least once, then close it completely. Close SimPro Manager 2 as well.
 2. Download the release ZIP and extract it to a normal folder. Do not run the installer from inside the ZIP.
@@ -42,16 +31,6 @@ The `manual/` files must always be used **together from the same version**. Do n
 4. Start SimHub and open **Simagic Profile Manager**. Follow the **First Start Setup** guide.
 
 The installer copies the three DLLs and installs the dashboard. It backs up any previous SPM DLLs/dashboard before replacing them. It does **not** erase your setups or assignments in `%LOCALAPPDATA%\SimagicProfileManager`.
-
-## Install by copying files manually
-
-1. Close SimHub and SimPro Manager 2. Download **all four** files from [`manual/`](manual/) using each file's **Download raw file** button, or download the matching individual assets from [Releases](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases).
-2. Find your SimHub installation folder — usually `C:\Program Files (x86)\SimHub`, containing `SimHubWPF.exe`. Back up any existing SPM DLLs there.
-3. Copy the **three DLLs** into that folder, alongside `SimHubWPF.exe`. Allow Windows to replace the older SPM DLLs. Administrator permission may be required.
-4. Import `Simagic Profile Manager.simhubdash` in SimHub's Dash Studio. This is a dashboard package, **not** a DLL and not a file to copy into the SimHub root folder.
-5. Restart SimHub, open **Simagic Profile Manager**, and complete First Start Setup.
-
-If updating an existing manual installation, replace **all three DLLs** and reimport the matching dashboard. Your user data stays in `%LOCALAPPDATA%\SimagicProfileManager`.
 
 ## First Start Setup
 
