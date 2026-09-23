@@ -2,8 +2,8 @@
   "product": "Simagic Profile Manager",
   "version": "0.1.0-beta.4",
   "channel": "beta",
-  "publishedUtc": "2026-09-23T18:18:52.0367871Z",
-  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.4/SimagicProfileManager-Setup-0.1.0-beta.4.zip",
-  "sha256": "e8c35aa32083d708a6d41aa1eaea29f07b763b8dde6607b835a0d54a6ce8fa46",
-  "changelog": "Opt-in experimental Alpha EVO support (off by default), improved profile reload, SimPro conflict handling and bug reporting."
+  "publishedUtc": "2026-09-23T18:33:34.2667668Z",
+  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.4/SimagicProfileManager-0.1.0-beta.4.zip",
+  "sha256": "6c27ff03006eccd7a526fe584d4ea2ecc6f429417777134ca6db0d538acd9023",
+  "changelog": "Manual ZIP installation: copy the three DLLs into SimHub and double-click the dashboard. Experimental EVO remains opt-in."
 }

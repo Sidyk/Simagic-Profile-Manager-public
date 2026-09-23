@@ -21,16 +21,16 @@ Verified legacy wheelbases: **SIMAGIC Alpha Mini, Alpha and Alpha Ultimate**. **
 
 ## Download
 
-Download the complete [SimagicProfileManager-Setup-0.1.0-beta.4.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.4/SimagicProfileManager-Setup-0.1.0-beta.4.zip). This one ZIP contains the plugin DLLs, dashboard and installer. For future versions, get the ZIP from the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases).
+Download [SimagicProfileManager-0.1.0-beta.4.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.4/SimagicProfileManager-0.1.0-beta.4.zip). This one ZIP contains all three plugin DLLs and the dashboard. Installation is manual; no installer or separate downloads are needed. For future versions, get the ZIP from the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases).
 
 ## Install
 
-1. Install and open SimHub at least once, then close it completely. Close SimPro Manager 2 as well.
-2. Download the release ZIP and extract it to a normal folder. Do not run the installer from inside the ZIP.
-3. Open PowerShell **as Administrator** in the extracted folder and run `./Install.ps1` (or `./Install.ps1 -SimHubPath 'D:\Your\SimHub'` for a non-default installation).
-4. Start SimHub and open **Simagic Profile Manager**. Follow the **First Start Setup** guide.
+1. Install and open SimHub at least once. Then close SimHub and SimPro Manager 2.
+2. Extract the ZIP. Copy **all three DLLs** from its `Plugin` folder into the SimHub installation folder (usually `C:\Program Files (x86)\SimHub`, beside `SimHubWPF.exe`). Allow Windows to replace existing SPM DLLs; administrator permission may be required.
+3. Double-click `Dashboard\Simagic Profile Manager.simhubdash` from the extracted ZIP. SimHub will open and import the dashboard automatically.
+4. Open **Simagic Profile Manager** in SimHub and follow the **First Start Setup** guide.
 
-The installer copies the three DLLs and installs the dashboard. It backs up any previous SPM DLLs/dashboard before replacing them. It does **not** erase your setups or assignments in `%LOCALAPPDATA%\SimagicProfileManager`.
+Always replace all three matching DLLs when updating manually. Your setups and assignments in `%LOCALAPPDATA%\SimagicProfileManager` remain untouched. Once installed, SPM can still apply later SHA-256-verified beta updates through its built-in updater.
 
 ## First Start Setup
 
