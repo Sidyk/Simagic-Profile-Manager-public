@@ -1,9 +1,9 @@
 {
   "product": "Simagic Profile Manager",
-  "version": "0.1.0-beta.5",
+  "version": "0.1.0-beta.6",
   "channel": "beta",
-  "publishedUtc": "2026-09-24T15:45:33.2378347Z",
-  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.5/SimagicProfileManager-0.1.0-beta.5.zip",
-  "sha256": "22263b65e437d42687b69e13dd15bbab44fabf002f6a39f4c0dbd72dbf4e4840",
-  "changelog": "Live wheelbase diagnostics and EVO Sport raw-byte observations; experimental EVO writes remain opt-in."
+  "publishedUtc": "2026-09-24T17:14:45.1227184Z",
+  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.6/SimagicProfileManager-0.1.0-beta.6.zip",
+  "sha256": "76387338b56a7b3f4ebf6cf4423ed5b0ac02fb608840b9c0f9ff8c8ca762f76b",
+  "changelog": "Game-level profile fallback, offline status improvements and Live Monitor restart fix."
 }
