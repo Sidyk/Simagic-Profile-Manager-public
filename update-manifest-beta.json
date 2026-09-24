@@ -1,9 +1,9 @@
 {
   "product": "Simagic Profile Manager",
-  "version": "0.1.0-beta.4",
+  "version": "0.1.0-beta.5",
   "channel": "beta",
-  "publishedUtc": "2026-09-23T18:33:34.2667668Z",
-  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.4/SimagicProfileManager-0.1.0-beta.4.zip",
-  "sha256": "6c27ff03006eccd7a526fe584d4ea2ecc6f429417777134ca6db0d538acd9023",
-  "changelog": "Manual ZIP installation: copy the three DLLs into SimHub and double-click the dashboard. Experimental EVO remains opt-in."
+  "publishedUtc": "2026-09-24T15:45:33.2378347Z",
+  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.5/SimagicProfileManager-0.1.0-beta.5.zip",
+  "sha256": "22263b65e437d42687b69e13dd15bbab44fabf002f6a39f4c0dbd72dbf4e4840",
+  "changelog": "Live wheelbase diagnostics and EVO Sport raw-byte observations; experimental EVO writes remain opt-in."
 }
