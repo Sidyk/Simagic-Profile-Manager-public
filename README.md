@@ -19,4 +19,3 @@ Please report any problems on [Discord](https://discord.gg/4XXsaW3CTe), includin
 5. Open Simagic Profile Manager in SimHub and follow First Start Setup. To import existing SimPro 2 setups, export them from SimPro 2 to files first.
 
 When updating manually, always replace all three DLLs together. Your saved setups and assignments are kept separately and are not removed by replacing the plugin files.
-
