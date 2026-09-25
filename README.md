@@ -10,7 +10,7 @@ If something goes wrong, tell us on [Discord](https://discord.gg/4XXsaW3CTe). Th
 
 ## Install
 
-1. Download the ZIP from the [newest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases) and extract it. You only need this one ZIP; there is no installer.
+1. Download [SimagicProfileManager-0.1.0-beta.8.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.8/SimagicProfileManager-0.1.0-beta.8.zip) and extract it. You only need this one ZIP; there is no installer.
 2. Close SimHub.
 3. Copy **all three DLL files** from the ZIP's `Plugin` folder into your SimHub installation folder (usually `C:\Program Files (x86)\SimHub`). If you are updating, allow Windows to replace the old SPM files. Administrator permission may be required.
 4. Double-click `Dashboard\Simagic Profile Manager.simhubdash` from the ZIP. SimHub will open and import the dashboard automatically.
