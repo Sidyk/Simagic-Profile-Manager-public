@@ -1,9 +1,9 @@
 {
   "product": "Simagic Profile Manager",
-  "version": "0.1.0-beta.6",
+  "version": "0.1.0-beta.7",
   "channel": "beta",
-  "publishedUtc": "2026-09-24T17:14:45.1227184Z",
-  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.6/SimagicProfileManager-0.1.0-beta.6.zip",
-  "sha256": "76387338b56a7b3f4ebf6cf4423ed5b0ac02fb608840b9c0f9ff8c8ca762f76b",
-  "changelog": "Game-level profile fallback, offline status improvements and Live Monitor restart fix."
+  "publishedUtc": "2026-09-25T04:53:57.0379254Z",
+  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.7/SimagicProfileManager-0.1.0-beta.7.zip",
+  "sha256": "e9ffb2fca55bb9c30877fb33b1df2c11e185ec1da6552741065f1c1b62f92ddf",
+  "changelog": "First Start Setup refinements, Discord bug-report notice, offline Auto Switch overlay and simpler footer."
 }

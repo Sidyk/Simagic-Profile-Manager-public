@@ -21,7 +21,7 @@ Verified legacy wheelbases: **SIMAGIC Alpha Mini, Alpha and Alpha Ultimate**. **
 
 ## Download
 
-Download [SimagicProfileManager-0.1.0-beta.6.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.6/SimagicProfileManager-0.1.0-beta.6.zip). This one ZIP contains all three plugin DLLs and the dashboard. Installation is manual; no installer or separate downloads are needed. For future versions, get the ZIP from the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases).
+Download [SimagicProfileManager-0.1.0-beta.7.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.7/SimagicProfileManager-0.1.0-beta.7.zip). This one ZIP contains all three plugin DLLs and the dashboard. Installation is manual; no installer or separate downloads are needed. For future versions, get the ZIP from the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases).
 
 ## Install
 
@@ -34,24 +34,24 @@ Always replace all three matching DLLs when updating manually. Your setups and a
 
 ## First Start Setup
 
-The guide walks you through choosing touch, buttons or both; mapping controls (optional); choosing a screen/DDU or phone/tablet (optional); and importing SimPro 2 exports or starting with an empty library. SimPro 2 profiles must be **exported to files first** and then selected in the import step. Choose the destination game when importing.
+The guide walks you through choosing touch, buttons or both; mapping controls (optional, including the two menu shortcuts in Touch mode); choosing a screen/DDU or phone/tablet (optional); and importing SimPro 2 exports or starting with an empty library. SimPro 2 profiles must be **exported to files first** and then selected in the import step. Choose the destination game when importing.
 
-After setup, use **Profiles** to create/import/edit setups and **Auto Switch** to assign them to a game-specific car or class. Use **Settings → Display** to choose a SimHub screen or get the phone/tablet address and QR code. Phone/tablet and the SimHub PC must be on the same local network; allow incoming SimHub connections through the firewall. You can revisit onboarding from **Settings → First Start Setup** without deleting existing profiles.
+After setup, use **Profiles** to create/import/edit setups and **Auto Switch** to assign them to a game-specific car, class or game. Auto Switch is unavailable until a game is running. Use **Settings → Display** to choose a SimHub screen or get the phone/tablet address and QR code. Phone/tablet and the SimHub PC must be on the same local network; allow incoming SimHub connections through the firewall. You can revisit onboarding from **Settings → First Start Setup** without deleting existing profiles.
 
 ## Experimental Alpha EVO support
 
-Version `0.1.0-beta.6` can detect Alpha EVO Sport (`3670:0500`), Alpha EVO (`3670:0501`) and Alpha EVO Pro (`3670:0502`). EVO reads and writes remain **off until you explicitly enable Settings → Beta → Enable experimental SIMAGIC EVO compatibility**. When disabled, SPM may show the detected model but does not apply profiles or tune the EVO.
+Version `0.1.0-beta.7` can detect Alpha EVO Sport (`3670:0500`), Alpha EVO (`3670:0501`) and Alpha EVO Pro (`3670:0502`). EVO reads and writes remain **off until you explicitly enable Settings → Beta → Enable experimental SIMAGIC EVO compatibility**. When disabled, SPM may show the detected model but does not apply profiles or tune the EVO.
 
 With the switch on, only the common mapped settings are writable. Smoothness and Feedback Frequency have unverified EVO offsets and are **not writable**; profile application skips them with a warning. An EVO Sport tester reports that EVO has no separate Max Torque control: FFB strength is its user-facing strength setting. The legacy Torque Limit profile field remains unsupported on EVO, and raw byte 23 is not identified as Max Torque. One EVO Sport before/after report correlates byte 48 with Dynamic Prediction, byte 50 with Filter Level and byte 52 with Slew Rate; these remain diagnostic-only, and the reported Filter Level did not match byte 50 one-to-one. These observations do not verify the mappings across EVO models. Legacy Alpha support remains the stable path.
 
 The Diagnostics page now offers a manual hardware refresh and an optional 1.5-second live monitor to compare actual wheelbase values with the active SPM profile. SimPro 2/3 detection remains informational; its warning and shutdown guard are temporarily disabled in this beta.
 
-EVO testers: capture **Settings → Diagnostics → CAPTURE EVO STATUS (0x81)** before and after changing one setting in SimPro Manager. Include the exact model, PID and both raw reports when using **Report a Bug**. Close SimPro Manager before allowing SPM to write to the wheelbase.
+EVO testers: capture **Settings → Diagnostics → CAPTURE EVO STATUS (0x81)** before and after changing one setting in SimPro Manager. Include the exact model, PID and both raw reports when reporting the problem on [Discord](https://discord.gg/4XXsaW3CTe). Close SimPro Manager before allowing SPM to write to the wheelbase.
 
 ## Beta updates and feedback
 
 SPM checks the public [`update-manifest-beta.json`](update-manifest-beta.json), downloads a release package and verifies its SHA-256 checksum before installing it. Versions `0.1.0-beta.1` and `0.1.0-beta.2` still point to the former private update location: install `0.1.0-beta.3` or newer manually **once** to switch to this public update channel.
 
-Please use **Report a Bug** inside the plugin. Include what you were doing, the game/car and what happened. Do not post private logs or personal information in public issues without checking them first. Backup restore is not yet available in the beta UI.
+The in-plugin **Report a Bug** form is temporarily disabled in this beta. Please report problems on [Discord](https://discord.gg/4XXsaW3CTe), including what you were doing, the game/car and what happened. Check logs for private or personal information before sharing them. Backup restore is not yet available in the beta UI.
 
 Simagic Profile Manager is an independent community project, not affiliated with, endorsed by or supported by SIMAGIC or SimHub. SIMAGIC and SimHub are trademarks of their respective owners.
