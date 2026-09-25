@@ -6,9 +6,9 @@ Assign setups to cars or classes, and SPM will load the matching one automatical
 
 ## Public beta
 
-SPM is in public beta: live tuning and automatic setup switching are available to try, but bugs and rough edges are still possible. Alpha EVO support remains experimental and is off by default.
+SPM is in public beta. SIMAGIC Alpha EVO support may not work as intended yet.
 
-If you run into a problem, please tell us what happened, which wheelbase and game you were using, and how to reproduce it on [Discord](https://discord.gg/4XXsaW3CTe). The in-plugin bug report form is temporarily unavailable.
+Please report any problems on [Discord](https://discord.gg/4XXsaW3CTe), including your wheelbase model, the game, and what happened. The in-plugin bug report form is temporarily unavailable.
 
 ## Install
 
@@ -20,8 +20,3 @@ If you run into a problem, please tell us what happened, which wheelbase and gam
 
 When updating manually, always replace all three DLLs together. Your saved setups and assignments are kept separately and are not removed by replacing the plugin files.
 
-## SIMAGIC Alpha EVO: experimental support
-
-Alpha EVO Sport, EVO and EVO Pro support is **experimental and off by default**. If you want to try it, enable **Settings → Beta → Enable experimental SIMAGIC EVO compatibility**. Until you enable it, SPM will not apply profiles or tune an EVO wheelbase.
-
-EVO support is still being tested, so some features may not work as intended. If you run into a problem, tell us your EVO model and what happened on [Discord](https://discord.gg/4XXsaW3CTe). The older Alpha series is more thoroughly tested.
