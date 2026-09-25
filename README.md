@@ -6,9 +6,9 @@ Assign setups to cars or classes, and SPM will load the matching one automatical
 
 ## Public beta
 
-SPM is currently in public beta. Some features may not work exactly as planned yet, especially with SIMAGIC Alpha EVO wheelbases.
+SPM is in public beta: live tuning and automatic setup switching are available to try, but bugs and rough edges are still possible. Alpha EVO support remains experimental and is off by default.
 
-If something goes wrong, tell us on [Discord](https://discord.gg/4XXsaW3CTe). The in-plugin bug report form is temporarily unavailable.
+If you run into a problem, please tell us what happened, which wheelbase and game you were using, and how to reproduce it on [Discord](https://discord.gg/4XXsaW3CTe). The in-plugin bug report form is temporarily unavailable.
 
 ## Install
 
