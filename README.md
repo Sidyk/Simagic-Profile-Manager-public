@@ -21,7 +21,7 @@ Verified legacy wheelbases: **SIMAGIC Alpha Mini, Alpha and Alpha Ultimate**. **
 
 ## Download
 
-Download [SimagicProfileManager-0.1.0-beta.7.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.7/SimagicProfileManager-0.1.0-beta.7.zip). This one ZIP contains all three plugin DLLs and the dashboard. Installation is manual; no installer or separate downloads are needed. For future versions, get the ZIP from the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases).
+Download [SimagicProfileManager-0.1.0-beta.8.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.8/SimagicProfileManager-0.1.0-beta.8.zip). This one ZIP contains all three plugin DLLs and the dashboard. Installation is manual; no installer or separate downloads are needed. For future versions, get the ZIP from the [latest beta release](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases).
 
 ## Install
 
@@ -40,7 +40,7 @@ After setup, use **Profiles** to create/import/edit setups and **Auto Switch** t
 
 ## Experimental Alpha EVO support
 
-Version `0.1.0-beta.7` can detect Alpha EVO Sport (`3670:0500`), Alpha EVO (`3670:0501`) and Alpha EVO Pro (`3670:0502`). EVO reads and writes remain **off until you explicitly enable Settings → Beta → Enable experimental SIMAGIC EVO compatibility**. When disabled, SPM may show the detected model but does not apply profiles or tune the EVO.
+Version `0.1.0-beta.8` can detect Alpha EVO Sport (`3670:0500`), Alpha EVO (`3670:0501`) and Alpha EVO Pro (`3670:0502`). EVO reads and writes remain **off until you explicitly enable Settings → Beta → Enable experimental SIMAGIC EVO compatibility**. When disabled, SPM may show the detected model but does not apply profiles or tune the EVO.
 
 With the switch on, only the common mapped settings are writable. Smoothness and Feedback Frequency have unverified EVO offsets and are **not writable**; profile application skips them with a warning. An EVO Sport tester reports that EVO has no separate Max Torque control: FFB strength is its user-facing strength setting. The legacy Torque Limit profile field remains unsupported on EVO, and raw byte 23 is not identified as Max Torque. One EVO Sport before/after report correlates byte 48 with Dynamic Prediction, byte 50 with Filter Level and byte 52 with Slew Rate; these remain diagnostic-only, and the reported Filter Level did not match byte 50 one-to-one. These observations do not verify the mappings across EVO models. Legacy Alpha support remains the stable path.
 
