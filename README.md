@@ -1,6 +1,8 @@
 # Simagic Profile Manager
 
-Simagic Profile Manager (SPM) is a SimHub plugin for saving, tuning and switching SIMAGIC wheelbase setups. 
+Simagic Profile Manager (SPM) is a SimHub plugin focused on **live tuning** your SIMAGIC wheelbase. Adjust supported settings in real time from SimHub, the SPM dashboard, a touchscreen or mapped controls on your wheel—without stopping to open a separate tuning app.
+
+Save your settings as setups and **assign them to specific cars or classes** in each game. SPM can then load the matching setup automatically when you change cars; you can also switch setups manually whenever you want. For games without car or class information, you can assign a setup to the game itself.
 
 ## Public beta
 
