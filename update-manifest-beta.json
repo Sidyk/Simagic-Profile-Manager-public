@@ -1,9 +1,9 @@
-{
-  "product": "Simagic Profile Manager",
-  "version": "0.1.0-beta.8",
-  "channel": "beta",
-  "publishedUtc": "2026-09-25T04:59:35.6902046Z",
-  "downloadUrl": "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.8/SimagicProfileManager-0.1.0-beta.8.zip",
-  "sha256": "15c9962c87434f3e9494bc71109fee9c55f6ada2d02d759b4c61348a46195ce3",
-  "changelog": "CHECK FOR UPDATES now bypasses stale manifest caches, so a newly published beta can be detected without restarting SimHub."
+﻿{
+    "product":  "Simagic Profile Manager",
+    "version":  "0.1.0-beta.9",
+    "channel":  "beta",
+    "publishedUtc":  "2026-10-11T17:47:09.2100804Z",
+    "downloadUrl":  "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.9/SimagicProfileManager-0.1.0-beta.9.zip",
+    "sha256":  "abeb3f7580656c6827a9720987fee5a07cbd0e562de100ce5c3182979a180e7f",
+    "changelog":  "See the release notes on GitHub for changes in v0.1.0-beta.9."
 }
