@@ -12,10 +12,10 @@ Please report any problems on [Discord](https://discord.gg/4XXsaW3CTe), includin
 
 ## Install
 
-1. Download [SimagicProfileManager-0.1.0-beta.9.2.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.9.2/SimagicProfileManager-0.1.0-beta.9.2.zip) and extract it. You only need this one ZIP; there is no installer.
+1. Download [SimagicProfileManager-0.1.0-beta.9.3.zip](https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.9.3/SimagicProfileManager-0.1.0-beta.9.3.zip) and extract it. You only need this one ZIP; there is no installer.
 2. Close SimHub.
 3. Copy **all three DLL files** from the ZIP's `Plugin` folder into your SimHub installation folder (usually `C:\Program Files (x86)\SimHub`). If you are updating, allow Windows to replace the old SPM files. Administrator permission may be required.
 4. Double-click `Dashboard\Simagic Profile Manager.simhubdash` from the ZIP. SimHub will open and import the dashboard automatically.
-5. Open Simagic Profile Manager in SimHub and follow First Start Setup. To import existing SimPro 2 setups, export them from SimPro 2 to files first.
+5. Open Simagic Profile Manager in SimHub and follow First Start Setup. Use **Profiles > Import** to import supported Alpha setups automatically from SimPro2 / SimPro3, or select exported setup files manually.
 
 When updating manually, always replace all three DLLs together. Your saved setups and assignments are kept separately and are not removed by replacing the plugin files.
