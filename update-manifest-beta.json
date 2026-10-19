@@ -1,9 +1,9 @@
 ﻿{
     "product":  "Simagic Profile Manager",
-    "version":  "0.1.0-beta.9.2",
+    "version":  "0.1.0-beta.9.3",
     "channel":  "beta",
-    "publishedUtc":  "2026-10-12T17:25:25.4697360Z",
-    "downloadUrl":  "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.9.2/SimagicProfileManager-0.1.0-beta.9.2.zip",
-    "sha256":  "424e294162366467e44adae7dd8cbe0d02db971ebd845cf1996cfd4b261258b8",
-    "changelog":  "See the release notes on GitHub for changes in v0.1.0-beta.9.2."
+    "publishedUtc":  "2026-10-19T08:11:02.7157809Z",
+    "downloadUrl":  "https://github.com/Sidyk/Simagic-Profile-Manager-public/releases/download/v0.1.0-beta.9.3/SimagicProfileManager-0.1.0-beta.9.3.zip",
+    "sha256":  "2bb6a6e17d560c35d4aa9f7cf8fbe90dafed9d7b0d908aeb97da9a53c7ade23b",
+    "changelog":  "See the release notes on GitHub for changes in v0.1.0-beta.9.3."
 }
